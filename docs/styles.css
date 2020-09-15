@@ -9,6 +9,7 @@ html {
     background-position: center center;
     height: 400px;
     color: rgb(55, 55, 56);
+    padding-top: 20px;
 }
 
 #smallImage {
@@ -50,3 +51,18 @@ img:hover {
    -ms-filter: none;
    filter: none;
 }
+
+
+/* TRYING TO MAKE SMALL CIRCLE IMAGES FOR MOBILE
+#tinyImage {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+
+.display-4 {
+    margin-bottom: 35%;
+}
+*/ 
