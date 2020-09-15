@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-image: url("https://images.unsplash.com/photo-1541870730196-cd1efcbf5649?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    color: rgb(55, 55, 56);
+}
+
+#smallImage {
+    height: 100%;
+    width: 100%;
+}
+
+#coffeeParagraph {
+    display: none;
+}
+
+#foodParagraph {
+    display: none;
+}
+
+#photoParagraph {
+    display: none;
+}
+
+.card {
+    border: none;
+    margin-top: 20px;
+    height: 100%;
+    background: rgb(209, 209, 204);
+}
+
+img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+img:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
